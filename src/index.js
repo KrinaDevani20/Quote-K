@@ -55,8 +55,7 @@ function tweetQuote(){
 }
 
 function whatsappQuote(){
-    const num=6355269662;
-    const waURL=`https:/api.whatsapp.com/send?text=${quoteContent.innerText}-${quoteAuthor.innerText}`
+    const waURL=`https://api.whatsapp.com/send?text=${quoteContent.innerText}-${quoteAuthor.innerText}`
     window.open(waURL,'_blank');
 }
 
